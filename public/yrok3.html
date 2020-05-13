@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Всеволод html | HTML</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="../assets/img/code5.gif">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <!--Временные стили-->
+  <style>
+    html {
+        background-image: url(../assets/img/bg-intro-desktop.png);
+        font-size: medium;
+    }
+    main {
+        width: 82%;
+        height: 100%;
+        margin: 0 auto;
+        border: black solid 1px;
+        padding: 2px;
+        background-color: rgba(221, 237, 250, 0.5);
+        margin-top: 0;
+    }
+  	time {
+        color: gray;
+    }
+    img {
+        width: 100%;
+    }
+    #topNubex {
+        position: fixed;
+        right: 2px;
+        bottom: 2px;
+    }
+    .down {
+        width: 50px;
+        height: 50px;
+    }
+  </style>
+</head>
+<body>
+    <main>
+        <h1>Создание сайта. Урок 3.</h1>
+        <time>30 марта</time>
+        <p>В прошлом уроке мы научились сохранять файлы, но забыли посмотреть на них!</p>
+        <p>Чтобы посмотреть написанный файл в браузере, надо в редакторе TredEdit нажать на треугольник вверху.</p>
+        <img src="https://avatars.mds.yandex.net/get-zen_doc/1930013/pub_5e819d51f3df085a7f6d081e_5e81a46ced5b9b19f3bd8c18/scale_1200">
+        <p>Но иногда вас может попросить сохранить файл, и после этого вам покажет ваш файл в браузере.</p>
+        <img src="https://avatars.mds.yandex.net/get-zen_doc/46847/pub_5e819d51f3df085a7f6d081e_5e81a4edfc87c305e2942f45/scale_1200">
+        <p>Теперь попробуем добавить на сайт изображения, это сложнее чем текст, поэтому одним редактором нам не справиться. Так что создаём новый проект! Поэтому заходим в проекты и нажимаем +.</p>
+        <img src="https://avatars.mds.yandex.net/get-zen_doc/1584893/pub_5e819d51f3df085a7f6d081e_5e81a6844dc6b06f644d84c5/scale_1200">
+        <p>И откроется вот эта панель, на которой нажмите новый проект. Проект назовите как хотите, но файлы называйте как я вам пишу! Потом создайте файл и папку как на изображении ниже.</p>
+        <img src="https://avatars.mds.yandex.net/get-zen_doc/57035/pub_5e819d51f3df085a7f6d081e_5e81a766eb765756c902fccd/scale_1200">
+        <p>Теперь нам нужно само изображение, думаю у вас на телефоне есть изображение так что зайдите в папку, а там нажмите +, и импортировать файл и выберите любое изображение из вашей галереи. Потом зажмите и переименуй те его в img1.</p>
+        <p>Теперь зайдём в наш html файл, тут нам основу придётся писать самим, но вот вам изображение с которого мы будем разбирать новый тег.</p>
+        <img src="https://avatars.mds.yandex.net/get-zen_doc/1645803/pub_5e819d51f3df085a7f6d081e_5e81aefca4b70d29713d2646/scale_1200">
+        <p>Всё вам тут должно быть знакомо кроме нового тега img, и первая его особенность, это то что его не надо закрывать, таких тегов немного. Так разберём его, <img тут ничего особенного, но вот</p>
+        <p>src="путь к изображению"</p>
+        <p>В нашем случае:</p>
+        <p>"папка/название_изображения"</p>
+        <p>В название изображения и папки не должно быть русских букв и пробелов! Если бы мы не создавали папку, а просто изображение оставили рядом с файлом html, то надо было бы в src писать только название изображения. Но мы поместили изображение в отдельную папку для удобства, ведь представьте что у нас не одно, а сотня изображений, тогда был бы хаус!</p>
+        <p>В исходниках(файлах рассмотренных нами сегодня) будет бонус, файл хром динозаврика, в которого вы легко сможете играть в любой момент зайдя в него через браузер.</p>
+        <img src="https://avatars.mds.yandex.net/get-zen_doc/1926321/pub_5e819d51f3df085a7f6d081e_5e81b158b6ea591e73e4c0f2/scale_1200">
+        <p>К следующему уроку подготовьте новую, доступную вам почту, ведь мы попробуем выложить ваш первый сайт в интернет!</p>
+        
+        <!-- Часть которую я не трогал-->
+        
+        <span class="likebtn-wrapper" data-theme="review" data-lang="ru" data-ef_voting="grow" data-white_label="true" data-identifier="item_1" data-dislike_enabled="false" data-icon_dislike_show="false" data-voting_frequency="5" data-counter_clickable="true" data-counter_frmt="km"></span>
+        <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+        <div id="mc-container"></div>
+        <script type="text/javascript">
+        cackle_widget = window.cackle_widget || [];
+        cackle_widget.push({widget: 'Comment', id: 73630});
+        (function() {
+            var mc = document.createElement('script');
+            mc.type = 'text/javascript';
+            mc.async = true;
+            mc.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cackle.me/widget.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+        })();
+        </script>
+        <a id="mc-link" href="http://cackle.me">Комментарии для сайта <b style="color:#4FA3DA">Cackl</b><b style="color:#F65077">e</b></a>
+  </main>
+    <div style="height:100%"></div>
+    <div id="topNubex"><img src="https://newconsalt.com/img/topNubex.png" class="down"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() != 0) {
+                    $('#topNubex').fadeIn();
+                } else {
+                    $('#topNubex').fadeOut();
+                };
+            });
+            $('#topNubex').click(function() {
+                $('body,html').animate({scrollTop:0},700);
+            });
+        });
+    </script>
+</body>
+</html>
