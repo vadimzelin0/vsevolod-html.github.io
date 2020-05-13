@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Всеволод html | HTML</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="../assets/img/code5.gif">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <!--Временные стили-->
+  <style>
+    html {
+        background-image: url(../assets/img/bg-intro-desktop.png);
+        font-size: medium;
+    }
+    main {
+        width: 82%;
+        height: 100%;
+        margin: 0 auto;
+        border: black solid 1px;
+        padding: 2px;
+        background-color: rgba(221, 237, 250, 0.5);
+        margin-top: 0;
+    }
+  	time {
+        color: gray;
+    }
+    img {
+        width: 100%;
+    }
+    #topNubex {
+        position: fixed;
+        right: 2px;
+        bottom: 2px;
+    }
+    .down {
+        width: 50px;
+        height: 50px;
+    }
+  </style>
+</head>
+<body>
+    <main>
+        <h1>Создание сайта. Урок 2.</h1>
+        <time>29 марта</time>
+        <p>Вот продолжение второго урока, кто его не читал срочно прочитайте!</p>
+        <p>В прошлом уроке я просил подготовить телефон, где вы будете писать код.</p>
+        <img src="https://avatars.mds.yandex.net/get-zen_doc/1712061/pub_5e80564d862a504fb17acc78_5e80575a60f2aa358125d0ba/scale_1200">
+        <p>Для телефона всё немного сложнее, вам нужно запустить TrebEdit, и зайти в редактор выбрав основной формат.</p>
+        <img src="https://avatars.mds.yandex.net/get-zen_doc/1533996/pub_5e80564d862a504fb17acc78_5e8059021a056b3af3dac0cb/scale_1200">
+        <p>На телефоне заранее сохраните файл под названием index.html. Вместо index можно написать что угодно, но лучше писать так, а для ваших файлов создать отдельную папку.</p>
+        <img src="https://avatars.mds.yandex.net/get-zen_doc/1612125/pub_5e80564d862a504fb17acc78_5e8059afa4b70d29713d1429/scale_1200">
+        <p>Для компа нужно писать самому, но для вас я подготовил сайт с исходниками <a href="https://kreepmeister.github.io/is2code/">https://kreepmeister.github.io/is2code/</a></p>
+        <p>На котором вы можете скачать zip файл.</p>
+        <img src="https://avatars.mds.yandex.net/get-zen_doc/1900266/pub_5e80564d862a504fb17acc78_5e80609645f56c40d73a9aaa/scale_1200">
+        <p>На прошлом уроке мы научились писать текст на странице(p, h1)</p>
+        <p>Так что, поэкспериментируйте с кодом и напишите свой! В комментариях жду скрины.</p>
+        <p>В этом небольшом уроке мы научились писать свой код на телефонах, в следующем уроке мы научимся добавлять на сайт изображения.</p>
+        
+        <!-- Часть которую я не трогал-->
+        
+        <span class="likebtn-wrapper" data-theme="review" data-lang="ru" data-ef_voting="grow" data-white_label="true" data-identifier="item_1" data-dislike_enabled="false" data-icon_dislike_show="false" data-voting_frequency="5" data-counter_clickable="true" data-counter_frmt="km"></span>
+        <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+        <div id="mc-container"></div>
+        <script type="text/javascript">
+        cackle_widget = window.cackle_widget || [];
+        cackle_widget.push({widget: 'Comment', id: 73630});
+        (function() {
+            var mc = document.createElement('script');
+            mc.type = 'text/javascript';
+            mc.async = true;
+            mc.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cackle.me/widget.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+        })();
+        </script>
+        <a id="mc-link" href="http://cackle.me">Комментарии для сайта <b style="color:#4FA3DA">Cackl</b><b style="color:#F65077">e</b></a>
+  </main>
+    <div style="height:100%"></div>
+    <div id="topNubex"><img src="https://newconsalt.com/img/topNubex.png" class="down"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() != 0) {
+                    $('#topNubex').fadeIn();
+                } else {
+                    $('#topNubex').fadeOut();
+                };
+            });
+            $('#topNubex').click(function() {
+                $('body,html').animate({scrollTop:0},700);
+            });
+        });
+    </script>
+</body>
+</html>
