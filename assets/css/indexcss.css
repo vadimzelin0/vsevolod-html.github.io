@@ -1,0 +1,88 @@
+body {
+    background-image: url(../img/bg-intro-desktop.png);
+}
+h3 {
+    font-family: 'Pangolin', cursive;
+}
+.header-img {
+    float: left;
+    width: 6%;
+}
+header {
+    border: white 1px solid;
+    padding: 0;
+    margin: 0;
+    border-left: black 5px solid;
+    border-right: black 5px solid;
+}
+.div {
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+section {
+    width: 50px;
+    height: 50px;
+}
+.public-img {
+    width: 150px;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.iio {
+    border: orange solid 1px;
+    background-repeat: no-repeat;
+    background-color: palegoldenrod;
+    border-radius: 5%;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 5px;
+}
+.rimg {
+    margin-top: -10px;
+    width: 200px;
+    height: 200px;
+}
+button {
+    padding: 7px 18px 3px 18px;
+    border-radius:20px;
+    text-decoration: none;	
+    font-family: Titillium, Arial, sans-serif;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,1);
+    text-transform:uppercase;
+    font-size: .9em;
+    letter-spacing: .1em;
+    background-image: url(../img/moomoo.png);
+    margin-right: 5px;
+    cursor: pointer;
+}
+nav {
+    display: inline-block;
+}
+/*дополнительный цвет для фона*/
+header {
+    background-color: rgba(225, 255, 58, 0.5);
+    border-left: black 5px solid;
+    border-right: black 5px solid;
+}
+main {
+    background-color: rgba(77, 117, 247, 0.5);
+}
+footer {
+    background-color: rgba(63, 65, 64, 0.5);
+}
+.copyright {
+    color: aliceblue;
+}
+
+@media (max-width:1000px) {
+    .header-img {
+        float: left;
+        width: 30%;
+    }
+}
